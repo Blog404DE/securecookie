@@ -1,0 +1,41 @@
+{
+  "name": "Blog404DE/securecookie",
+  "description": "Set secure-cookie flag for https-sites on Contao <4.0",
+  "keywords": [
+	"contao",
+	"cookie",
+	"ssl",
+	"secure-flag"
+  ],
+  "type": "contao-module",
+  "homepage": "https://github.com/Blog404DE/securecookie",
+  "license": "LGPL-3.0+",
+  "authors": [
+	{
+	  "name": "Jens Dutzi",
+	  "email": "info@tf-network.de",
+	  "homepage": "https://www.tf-network.de",
+	  "role": "Developer"
+	}
+  ],
+  "support": {
+	"issues": "https://github.com/Blog404DE/securecookie/issues"
+  },
+  "require": {
+	"php": ">=5.3.2",
+	"contao/core-bundle": "~3.2",
+	"contao-community-alliance/composer-plugin": "~2.4"
+  },
+  "autoload": {
+	"classmap": [
+	  ""
+	]
+  },
+  "extra": {
+	"contao": {
+	  "sources": {
+		"": "system/modules/securecookie"
+	  }
+	}
+  }
+}
