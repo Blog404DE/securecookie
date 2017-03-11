@@ -5,26 +5,26 @@
  *
  * Copyright (c) 2005-2016 Leo Feyer
  *
- * @package   SecureCookie
+ * @package   securecookie
  * @author    Jens Dutzi
  * @license   MIT
- * @copyright tf-network.de Jens Dutzi 2016
+ * @copyright tf-network.de Jens Dutzi 2017
  */
 
 
 /**
  * Namespace
  */
-namespace SecureCookieSupport;
+namespace securecookie;
 
 /**
- * Class SecureCookieSupport
+ * Class securecookie
  *
  * @copyright  tf-network.de Jens Dutzi 2017
  * @author     Jens Dutzi
  * @package    Devtools
  */
-class SecureCookieSupport {
+class securecookie {
     function setSecureFlag($objCookie) {
 		if(\Environment::get('ssl')) $objCookie->blnSecure = true;
 

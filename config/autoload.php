@@ -14,7 +14,7 @@
  */
 ClassLoader::addNamespaces(array
 (
-	'SecureCookieSupport',
+	'securecookie',
 ));
 
 
@@ -24,5 +24,5 @@ ClassLoader::addNamespaces(array
 ClassLoader::addClasses(array
 (
 	// Classes
-	'SecureCookieSupport\SecureCookieSupport' => 'system/modules/SecureCookieSupport/classes/SecureCookieSupport.php',
+	'securecookie\securecookie' => 'system/modules/securecookie/classes/securecookie.php',
 ));

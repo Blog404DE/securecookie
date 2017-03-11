@@ -5,7 +5,7 @@
  *
  * Copyright (c) 2005-2016 Leo Feyer
  *
- * @package   SecureCookie
+ * @package   securecookie
  * @author    Jens Dutzi
  * @license   MIT
  * @copyright tf-network.de Jens Dutzi 2017
@@ -32,4 +32,4 @@
  * event. For more information see https://contao.org/manual.html.
  */
 
-$GLOBALS['TL_HOOKS']['setCookie'][] = array('SecureCookieSupport', 'setSecureFlag');
+$GLOBALS['TL_HOOKS']['setCookie'][] = array('securecookie', 'setSecureFlag');
